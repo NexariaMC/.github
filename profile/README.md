@@ -1,4 +1,5 @@
-# .github
+## NexariaMC Info:
+Nexaria is a public Minecraft server that features the gamemodes Lifesteam and MMORPG. The goal is to create a unique gameplay experience at a massive scale
 
 ## Developer Doc:
 ### Java/Kotlin Development Rules
