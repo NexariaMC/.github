@@ -3,6 +3,7 @@ Nexaria is a public Minecraft server that features the gamemodes Lifesteam and M
 
 ## Developer Doc:
 ### Java/Kotlin Development Rules
+* **Privatization** If a function is intended exclusively to be ran by the developer in specific cases but cannot be private or package private, it must be annotated by `@ApiStatus.Internal`.
 * **Null Safety** Functions are responsible for accounting for null safety, if a parameter or a class field CAN be null it must be annotated by `@Nullable`. Anything not annotated `@Nullable` will be assumed to be not null at all times.
 * **Indentation:** Use 4 spaces for indentation.
 * **Single Responsibility Principle:** Functions should adhere to the single concept principle. For example, a function named `loadPlayer` should only load player data and not perform other actions like setting blocks. Similarly, `updateSomething` should only perform the update. Generally ANY method/function MUST do only a specific concept.
